@@ -5,9 +5,9 @@ layout: default
 
     <div class="w-1/3 flex flex-col gap-6">
         <img src=" {{ page.photo }}" alt="">
-        <div>
+        <h6>
             {{ page.citate }}
-        </div>
+        </h6>
 
         <div>
             {% for item in page.relations %}
@@ -19,13 +19,13 @@ layout: default
         </div>
     </div>
     <div class="w-1/3 flex flex-col gap-6">
-        <h1 class="text-4xl text-yellow-500">{{ page.full-name }}</h1>
+        <h1 class="playfair text-4xl text-yellow-500">{{ page.full-name }}</h1>
         <div>
             {% for stat in page.stats %}
             {% if stat.detail %}
             <div>
-                <p class="inline text-yellow-500">{{ stat.title }}: </p>
-                <p class="inline">{{ stat.value }}</p>
+                <p class="play inline text-yellow-500">{{ stat.title }}: </p>
+                <p class="play inline">{{ stat.value }}</p>
             </div>
             {% endif %}
             {% endfor %}
@@ -37,7 +37,7 @@ layout: default
         </details>
         {% endfor %}
         <div class="rounded-xl p-6 bg-black bg-opacity-30">
-            <h1 class="text-yellow-500 text-4xl mb-3">Описание</h1>
+            <h1 class="playfair text-yellow-500 text-4xl mb-3">Описание</h1>
             <div>{{ content }}</div>
         </div>
     </div>

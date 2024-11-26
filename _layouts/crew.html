@@ -5,23 +5,14 @@ layout: default
 <div class="container mx-auto justify-center flex flex-wrap flex-start">
   {% assign no-photo = "/assets/img/no-photo.jpg" %} {% for person in site.crew
   %}
-  <a
-    href="{{ person.url | relative_url }}"
-    target="_self"
-    class="w-80 m-3 rounded-xl p-6 bg-black bg-opacity-30"
-  >
-    <p class="text-yellow-500 text-2xl font-semibold">{{ person.title }}</p>
-    <img
-      class="w-full py-6"
-      src="{{ person.profile-picture | no-photo }}"
-      alt="profile picture"
-      class="py-6"
-    />
+  <a href="{{ person.url | relative_url }}" target="_self" class="w-96 m-3 rounded-xl p-6 bg-black bg-opacity-30">
+    <h1 class="playfair text-yellow-500 text-3xl font-semibold">{{ person.title }}</h1>
+    <img class="w-full py-6" src="{{ person.profile-picture | no-photo }}" alt="profile picture" class="py-6" />
 
     {% for stat in person.stats %} {% if stat.card == true %}
     <div>
-      <p class="inline text-yellow-500">{{ stat.title }}:</p>
-      <p class="inline">{{ stat.value }}</p>
+      <p class="play inline text-yellow-500">{{ stat.title }}:</p>
+      <p class="play inline">{{ stat.value }}</p>
     </div>
     {% endif %} {% endfor %}
   </a>
