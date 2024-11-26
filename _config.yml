@@ -1,0 +1,41 @@
+title: TEST TITLE
+
+collections:
+  crew:
+    output: true
+  rules:
+
+defaults:
+  - scope:
+      path: ""
+      type: crew
+    values:
+      layout: person
+      nav_title: Персонаж
+      left_link: [Главная, /]
+      right_link: [Вся свита, /crew]
+
+sass:
+  style: compressed
+
+base_path: ""
+url: "https://swade-wh40k.github.io"
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - "*.config.js"
+  - package*.json

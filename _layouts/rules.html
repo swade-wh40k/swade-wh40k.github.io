@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="flex container mx-auto pt-10 justify-center">
+    {% for rule in site.rules %}
+
+    <details class="w-full m-3 rounded-xl p-6 bg-black bg-opacity-30">
+        <summary class="text-4xl text-yellow-500">
+            {{ rule.title }}
+        </summary>
+
+        <p class="pt-3">
+            {{ rule.content }}
+        </p>
+    </details>
+
+    {% endfor %}
+</div>

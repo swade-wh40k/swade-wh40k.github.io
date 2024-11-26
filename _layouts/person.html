@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="flex flex-wrap container mx-auto gap-6 justify-center">
+
+    <div class="w-1/3 flex flex-col gap-6">
+        <img src=" {{ page.photo }}" alt="">
+        <div>
+            {{ page.citate }}
+        </div>
+
+        <div>
+            {% for item in page.relations %}
+            <div><span class="text-yellow-500">{{item.name}}:</span> {% for i in (1..item.value) %}❤{% endfor %}{% for i
+                in
+                (item.value..4) %}🤍{% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="w-1/3 flex flex-col gap-6">
+        <h1 class="text-4xl text-yellow-500">{{ page.full-name }}</h1>
+        <div>
+            {% for stat in page.stats %}
+            {% if stat.detail %}
+            <div>
+                <p class="inline text-yellow-500">{{ stat.title }}: </p>
+                <p class="inline">{{ stat.value }}</p>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% for item in page.character %}
+        <details class="rounded-xl p-6 bg-black bg-opacity-30">
+            <summary class="text-yellow-500">{{ item.title }}</summary>
+            {{ item.text }}
+        </details>
+        {% endfor %}
+        <div class="rounded-xl p-6 bg-black bg-opacity-30">
+            <h1 class="text-yellow-500 text-4xl mb-3">Описание</h1>
+            <div>{{ content }}</div>
+        </div>
+    </div>
+</div>
