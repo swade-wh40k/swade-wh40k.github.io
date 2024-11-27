@@ -9,12 +9,14 @@ layout: default
     <h1 class="playfair text-yellow-500 text-3xl font-semibold">{{ person.title }}</h1>
     <img class="w-full py-6" src="{{ person.profile-picture | no-photo }}" alt="profile picture" class="py-6" />
 
-    {% for stat in person.stats %} {% if stat.card == true %}
-    <div>
-      <p class="play inline text-yellow-500">{{ stat.title }}:</p>
-      <p class="play inline">{{ stat.value }}</p>
-    </div>
-    {% endif %} {% endfor %}
+    {% for stat in person.stats %}
+      {% if stat.card %}
+        <div>
+          <p class="play inline text-yellow-500">{{ stat.title }}:</p>
+          <p class="play inline">{{ stat.card }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
   </a>
   {% endfor %}
 </div>
