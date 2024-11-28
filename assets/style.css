@@ -27,7 +27,7 @@ body {
 .markdown h6,
 .markdown hr {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .markdown li {
