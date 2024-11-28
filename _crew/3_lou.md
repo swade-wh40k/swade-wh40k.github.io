@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Начальник боевой службы
 
-  - title: Расса
+  - title: Раса
     card: Человек
     detail: true
   - title: Пол(?)

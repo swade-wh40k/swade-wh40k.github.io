@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Сенешаль, старпом
 
-  - title: Расса
+  - title: Раса
     card: Человек
     detail: true
 

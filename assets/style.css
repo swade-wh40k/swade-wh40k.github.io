@@ -19,3 +19,11 @@ body {
   list-style-type: disc;
   margin-left: 1rem;
 }
+
+.color-gold {
+  color: #c74
+}
+
+.color-white {
+  color: #ddd
+}

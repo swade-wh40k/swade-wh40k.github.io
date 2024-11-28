@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Мастер двигателей & навигатор
 
-  - title: Расса
+  - title: Раса
     card: Мутант-навигатор
     detail: true
 

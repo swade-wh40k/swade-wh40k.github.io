@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Старший хирургеон
 
-  - title: Расса
+  - title: Раса
     card: Человек
     detail: true
 

@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Хормейстер телепатики
 
-  - title: Расса
+  - title: Раса
     card: Человек
     detail: true
 

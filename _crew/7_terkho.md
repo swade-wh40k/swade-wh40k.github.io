@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: В наших сердцах
 
-  - title: Расса
+  - title: Раса
     card: Человек?
     detail: true
 

@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Первый Техпровидец & Исповедник
 
-  - title: Расса
+  - title: Раса
     card: Человек?
     detail: true
 

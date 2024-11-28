@@ -13,7 +13,7 @@ stats:
   - title: Должность
     card: Второй старпом & Высший фактотум
 
-  - title: Расса
+  - title: Раса
     card: Человек
     detail: true
 

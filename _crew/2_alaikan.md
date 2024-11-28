@@ -10,7 +10,7 @@ stats:
   - title: Должность
     card: Властитель слухов
 
-  - title: Расса
+  - title: Раса
     card: Эльдар
     detail: true
 
