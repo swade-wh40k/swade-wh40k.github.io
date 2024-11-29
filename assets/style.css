@@ -107,6 +107,32 @@ details>div>div {
   }
 }
 
+@keyframes slideScaleFadeInFromLeft {
+  0% {
+    transform: rotate(-25deg) scale(1.25);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shipUp {
+  0% {
+    transform: translateY(100%) rotate(45deg);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
 @keyframes slideFadeInFromTop {
   0% {
     transform: translateY(-50%);
@@ -129,15 +155,23 @@ details>div>div {
   }
 }
 
-.animTransLeft {
+.animStats {
   animation: 0.5s ease-out 0s 1 slideFadeInFromLeft;
 }
 
-.animTransTop {
+.animShip {
+  animation: 1s ease-out 0s 1 shipUp;
+}
+
+.animCitate {
+  animation: 0.5s ease-out 0s 1 slideScaleFadeInFromLeft;
+}
+
+.animLogo {
   animation: 0.5s ease-out 0s 1 slideFadeInFromTop;
 }
 
-.animFadeIn {
+.animPhoto {
   animation: 1s ease-out 0s 1 FadeIn;
 }
 
