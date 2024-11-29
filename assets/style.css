@@ -15,6 +15,59 @@ body {
   font-style: normal;
 }
 
+@keyframes slideFadeInFromLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFadeInFromTop {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animScaleFadeIn {
+  opacity: 0;
+  transform: scale(0.75);
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}
+
+.animTransLeft {
+  animation: 0.5s ease-out 0s 1 slideFadeInFromLeft;
+}
+
+.animTransTop {
+  animation: 0.5s ease-out 0s 1 slideFadeInFromTop;
+}
+
+.animFadeIn {
+  animation: 1s ease-out 0s 1 FadeIn;
+}
+
 .markdown p {
   margin-bottom: 0.5rem;
 }
