@@ -27,6 +27,11 @@ compress_html:
   ignore:
     envs: [development]
 
+kramdown:
+  auto_ids: false
+  auto_id_prefix: false
+  auto_id_stripping: false
+
 exclude:
   - "*.gem"
   - "*.gemspec"
