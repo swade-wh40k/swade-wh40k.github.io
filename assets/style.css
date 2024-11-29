@@ -77,8 +77,15 @@ details>div>div {
   }
 }
 
-.playfair {
+/* .playfair {
   font-family: "Playfair", serif;
+  font-weight: 800;
+  font-style: normal;
+} */
+
+.playfair {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
 }
@@ -88,6 +95,12 @@ details>div>div {
   font-weight: 400;
   font-style: normal;
 }
+
+/* .play {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+} */
 
 .citate {
   font-family: "Marck Script", cursive;
