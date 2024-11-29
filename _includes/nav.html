@@ -4,7 +4,8 @@
         <a class="max-w-0 md:max-w-full hidden md:block play text-4xl color-gold font-black" href="/">{{ site.title
             }}</a>
         {% for nav in site.data.navigation %}
-        <a class="color-white play underline" href="{{ nav.link }}">{{ nav.title }}</a>
+        <a class="color-white play underline" href="{% if nav.link %}{{ nav.link }}{% else %}#{% endif %}">{{
+            nav.title }}</a>
         {% endfor %}
     </container>
 </nav>
