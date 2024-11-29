@@ -30,7 +30,7 @@ stats:
 profile-picture: /assets/avatars/waht1.webp
 
 # Главная фотография профиля
-photo: /assets/img/ship1.jpg
+photo: /assets/img/ship.webp
 
 # Цитата профиля
 citate: Не заполнено
