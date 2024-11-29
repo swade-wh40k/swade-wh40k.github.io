@@ -1,7 +1,7 @@
-<nav class="bg-black bg-opacity-30">
-    <container class="h-24 container max-w-7xl mx-auto flex justify-between items-center md:p-0 p-3">
+<nav class="bg-black bg-opacity-30 px-9">
+    <container class="h-20 container max-w-7xl mx-auto flex justify-between items-center">
 
-        <a class="max-w-0 md:max-w-full hidden md:block play text-4xl color-gold font-black" href="/">{{ site.title
+        <a class="max-w-0 lg:max-w-full hidden lg:block play text-4xl color-gold font-black" href="/">{{ site.title
             }}</a>
         {% for nav in site.data.navigation %}
         <a class="color-white play underline" href="{% if nav.link %}{{ nav.link }}{% else %}#{% endif %}">{{
