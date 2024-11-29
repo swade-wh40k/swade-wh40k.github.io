@@ -5,7 +5,8 @@ layout: default
 <div class="container mx-auto justify-center flex flex-wrap flex-start">
   {% assign no-photo = "/assets/img/no-photo.jpg" %} {% for person in site.crew
   %}
-  <a href="{{ person.url | relative_url }}" target="_self"
+  {% if person.link == false %}
+  <div {% else %} <a href="{{ person.url }}" target="_self" {% endif %}
     class="animScaleFadeIn w-80 m-3 rounded-xl p-6 bg-black bg-opacity-30">
     <h1 class="playfair color-gold text-2xl font-semibold">{{ person.title }}</h1>
     <img class="w-full py-6" src="{{ person.profile-picture | no-photo }}" alt="profile picture" />
@@ -13,11 +14,13 @@ layout: default
     {% for stat in person.stats %}
     {% if stat.card %}
     <div>
-      <p class="play inline color-gold">{{ stat.title }}: </p>
-      <p class="play inline color-white">{{ stat.card }}</p>
+      <p class="play inline color-white"><span class="color-gold">{{ stat.title }}:</span>&ensp;{{ stat.card }}</p>
     </div>
     {% endif %}
     {% endfor %}
-  </a>
+    {% if person.link == false %}
+  </div>
+  {% else %}
+  </a>{% endif %}
   {% endfor %}
 </div>

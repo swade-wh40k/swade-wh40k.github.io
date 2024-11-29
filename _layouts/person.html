@@ -11,7 +11,7 @@ layout: default
 
         <div class="color-white">
             {% for item in page.relations %}
-            <div><span class="color-gold">{{item.name}}:</span> {% for i in (1..item.value) %}❤{% endfor %}{% for i
+            <div><span class="color-gold">{{item.name}}:</span>&ensp;{% for i in (1..item.value) %}❤{% endfor %}{% for i
                 in
                 (item.value..4) %}🤍{% endfor %}
             </div>
@@ -25,12 +25,12 @@ layout: default
             {% for stat in page.stats %}
             {% if stat.detail %}
             <div>
-                <p class="play inline color-gold">{{ stat.title }}: </p>
-                {% if stat.detail == true %}
-                <p class="play inline color-white">{{ stat.card }}</p>
-                {% else %}
-                <p class="play inline color-white">{{ stat.detail }}</p>
-                {% endif %}
+                <p class="play inline color-wihte"><span class="color-gold">{{ stat.title }}:</span>&ensp;
+                    {% if stat.detail == true %}
+                    {{ stat.card }}
+                    {% else %}
+                    {{ stat.detail }}
+                    {% endif %}</p>
             </div>
             {% endif %}
             {% endfor %}

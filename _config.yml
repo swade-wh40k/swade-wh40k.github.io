@@ -11,9 +11,6 @@ defaults:
       type: crew
     values:
       layout: person
-      nav_title: Персонаж
-      left_link: [Главная, /]
-      right_link: [Вся свита, /crew]
 
 sass:
   style: compressed
