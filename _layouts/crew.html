@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="container mx-auto justify-center flex flex-wrap flex-start">
+<div class="container mx-auto crew-grid max-w-7xl">
   {% assign no-photo = "/assets/img/no-photo.jpg" %} {% for person in site.crew
   %}
   {% if person.link == false %}
   <div {% else %} <a href="{{ person.url }}" target="_self" {% endif %}
-    class="animScaleFadeIn w-80 m-3 rounded-xl p-6 bg-black bg-opacity-30">
+    class="animScaleFadeIn rounded-xl p-6 bg-black bg-opacity-30">
     <h1 class="heading color-gold text-2xl font-semibold">{{ person.title }}</h1>
     <img class="w-full py-6" src="{{ person.profile-picture | no-photo }}" alt="profile picture" />
 

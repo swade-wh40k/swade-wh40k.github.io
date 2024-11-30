@@ -254,7 +254,6 @@ details>div>div {
   background: linear-gradient(90deg, #00000000 0%, #ffffff25 5%, #00000000 75%);
 }
 
-
 /* ~ MARKDOWN BLOCKS ~ */
 
 .color-gold {
@@ -263,4 +262,11 @@ details>div>div {
 
 .color-white {
   color: #ddd
+}
+
+.crew-grid {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
 }
