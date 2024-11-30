@@ -3,4 +3,4 @@ a = document.getElementsByClassName('animScaleFadeIn');for (var i = 0; i < a.len
 document.querySelectorAll('summary').forEach(e => e.addEventListener('click', (g) => {const d = g.target.parentElement;const c = g.target.nextElementSibling;if (c.classList.contains('animation')) {c.classList.remove('animation', 'collapsing');void e.offsetWidth;return;}const o = cb => c.addEventListener("animationend", cb, {once: true});requestAnimationFrame(() => c.classList.add('animation'));o(() => c.classList.remove('animation'));if (d.getAttribute('open') !== null) {g.preventDefault();c.classList.add('collapsing');o(() => {d.removeAttribute('open');c.classList.remove('collapsing');});}}));
 // First and last in markwond blocks should be without top/bottom margin
 var m = document.getElementsByClassName('markdown');
-for(var i = 0; m.length; ++i){var k = m[i].children;k[0].style.marginTop=0;k[k.length-1].style.marginBottom=0;}
+for(var i = 0; i < m.length; ++i){var k = m[i].children;k[0].style.marginTop=0;k[k.length-1].style.marginBottom=0;}
