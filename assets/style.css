@@ -1,6 +1,7 @@
 body {
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48c3R5bGU+cGF0aCB7IGZpbGw6IG5vbmU7IHN0cm9rZTogcmdiYSgwLDAsMCwwLjI1KTsgc3Ryb2tlLXdpZHRoOiAzLjAxcHg7IHN0cm9rZS1saW5lY2FwOiByb3VuZDsgc3Ryb2tlLWxpbmVqb2luOiByb3VuZDsgfTwvc3R5bGU+PHBhdGggZD0iTTQxNiAxOTJMMjU2IDMyMCA5NiAxOTIgMjU2IDY0bDE2MCAxMjh6TTk2LTY0TDI1NiA2NCA0MTYtNjRtMCA2NDBWNDQ4TDI1NiA1NzZtMCAwTDk2IDQ0OHYxMjhtNDE2LTM4NUwzNTIgMzIwbDE2MCAxMjguM0w2NzIgMzIwIDM1MiA2NGwzMjAtMjU2TTUxMiAxOTFMNjcyIDY0IDM1Mi0xOTJtLTE5MiAwTC0xNjAgNjRsMzIwIDI1NkwwIDQ0OC4zbTAgMEwtMTYwIDMyMCAxNjAgNjRsLTMyMC0yNTZtNTc2IDY0MEwyNTYgMzIwIDk2IDQ0OG0wLTUxMnY3Ni44TTQxNi02NHY3Ni44TTM1MiA2NHY3Ni44TTE2MCA2NHY3Ni44TTk2IDE5MnY3Ni44TTQxNiAxOTJsLS41IDc2LjhNMzUyIDMyMHY3Ni44TTE2MCAzMjB2NzYuOG0wLTI4MS42bDE1LjggMTNtMTc2LjItMTNsLTE2LjIgMTNtMTYuMiAyNDNsLTE2LjIgMTNtLTE3NS44LTEzbDE2LjIgMTNtNDk1LjMgMTkxLjJsLTE2MC0xMjgtMTYwIDEyOG0tMTkyIDBsLTE2MC0xMjgtMTYwIDEyOCIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+PC9zdmc+"),
     linear-gradient(63deg, #2d1313 0%, #131622 100%);
+  background-attachment: fixed;
 }
 
 .ico-heart-red {
@@ -22,6 +23,8 @@ body {
   width: 1.3rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='url(%23a)' d='M16 3.7c-1.6 0-3 1-4 2.2-1-1.4-2.4-2.3-4-2.3-3 0-5 2.3-5 5 0 6 9 11.6 9 11.6s9-5.5 9-11.6c0-2.7-2-5-5-5z'/%3E%3Cpath fill='url(%23b)' d='M18.2 4.2c2.7 4.3.2 10-2.8 11.7C12 17.6 9.7 17 5 14c2.7 3.5 7 6 7 6s9-5.4 9-11.5c0-2-1-3.8-2.8-4.5z' opacity='.5'/%3E%3Cpath fill='url(%23c)' d='M16 3.7c-1.6 0-3 1-4 2.2-1-1.4-2.4-2.3-4-2.3-3 0-5 2.3-5 5 0 6 9 11.6 9 11.6s9-5.5 9-11.6c0-2.7-2-5-5-5z' opacity='.5'/%3E%3Cpath fill='url(%23d)' d='M16 3.7c-1.6 0-3 1-4 2.2-1-1.4-2.4-2.3-4-2.3-3 0-5 2.3-5 5 0 6 9 11.6 9 11.6s9-5.5 9-11.6c0-2.7-2-5-5-5z' opacity='.5'/%3E%3Cpath fill='url(%23e)' d='M10.7 5.7c.6 1.2-.6 2.8-2.4 3.6-2 .8-3.8.5-4.4-.7-.6-1 .6-2.7 2.4-3.5 2-.7 3.8-.4 4.3.7z' opacity='.2'/%3E%3Cpath fill='url(%23f)' d='M17 4.8c.6.8 0 2.3-1 3.5-1.4 1-3 1.4-3.7.6-.7-1-.2-2.5 1-3.6 1.3-1 3-1.4 3.6-.6z' opacity='.2'/%3E%3Cpath fill='url(%23g)' d='M16.2 5c2.5 1 5 4.6 1 9.2C14.6 17 12 18.4 8.5 18l3.4 2.3s9-5.5 9-11.6c0-2.7-2-5-5-5-1.6 0-3 1-4 2.2 0 0 2.4-1.6 4.2-1z' opacity='.3'/%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(12.46295 -7.0248 5.57245 9.88628 9.385 8.348)'%3E%3Cstop offset='.2' stop-color='%23bfbfbf'/%3E%3Cstop offset='.9' stop-color='%23a1a1a1'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(10.73016 -6.0481 4.7977 8.51177 9.74 7.47)'%3E%3Cstop offset='.2' stop-color='%23bfbfbf'/%3E%3Cstop offset='1' stop-color='%23a1a1a1'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(12.46295 -7.0248 5.57245 9.88628 9.385 8.348)'%3E%3Cstop stop-color='%23fff' stop-opacity='.3'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(-26.296 35.528 -24.494) scale(10.4431 5.16038)'%3E%3Cstop stop-color='%23ababab' stop-opacity='.3'/%3E%3Cstop offset='1' stop-color='%23ababab' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(3.44964 -1.37214 .85235 2.14287 7.347 7.195)'%3E%3Cstop stop-color='%23fff'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(2.3281 -2.00697 1.24678 1.44628 14.6 6.846)'%3E%3Cstop stop-color='%23fff'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='g' x1='13.9' x2='15.7' y1='26.8' y2='3' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23858585'/%3E%3Cstop offset='1' stop-color='%23ababab' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
 }
+
+/* DETAILS SUMMARY */
 
 details summary {
   display: flex;
@@ -67,6 +70,29 @@ details>div>div {
   min-height: 0;
 }
 
+/* ~ DETAILS SUMMARY ~ */
+
+.heading {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.paragraph {
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.citate {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ANIMATIONS */
+
 @keyframes grid-expand {
   0% {
     grid-template-rows: 0fr;
@@ -75,37 +101,6 @@ details>div>div {
   100% {
     grid-template-rows: 1fr;
   }
-}
-
-/* .playfair {
-  font-family: "Playfair", serif;
-  font-weight: 800;
-  font-style: normal;
-} */
-
-.playfair {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.play {
-  font-family: "Play", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* .play {
-  font-family: "Spectral SC", serif;
-  font-weight: 600;
-  font-style: normal;
-} */
-
-.citate {
-  font-family: "Marck Script", cursive;
-  font-weight: 400;
-  font-style: normal;
 }
 
 @keyframes slideFadeInFromLeft {
@@ -188,25 +183,79 @@ details>div>div {
   animation: 1s ease-out 0s 1 FadeIn;
 }
 
-.markdown p {
-  margin-bottom: 0.5rem;
-}
+/* ~ ANIMATIONS ~ */
 
+/* MARKDOWN BLOCKS */
+
+.markdown hr,
 .markdown h1,
 .markdown h2,
 .markdown h3,
 .markdown h4,
 .markdown h5,
-.markdown h6,
-.markdown hr {
+.markdown h6 {
   font-size: 1.25rem;
   margin: 1rem 0;
 }
 
-.markdown li {
+.markdown ol,
+.markdown ul {
+  margin: .5rem 0;
+}
+
+.markdown p {
+  margin: .5rem 0;
+}
+
+.markdown strong {
+  font-variant-caps: all-small-caps;
+}
+
+.markdown ul li {
   list-style-type: disc;
   margin-left: 1rem;
 }
+
+.markdown ul ul,
+.markdown ol ol,
+.markdown ol ul,
+.markdown ul ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown ul li li {
+  list-style-type: circle;
+  margin-left: 1rem;
+}
+
+.markdown ol li {
+  margin-left: 1rem;
+  list-style-type: decimal;
+}
+
+.markdown p code {
+  background-color: #222;
+  border: .1rem solid #555;
+  border-radius: .25rem;
+}
+
+.markdown div div pre {
+  padding: .5rem;
+  background-color: #222;
+  border: .1rem solid #555;
+  border-radius: .25rem;
+}
+
+.markdown blockquote {
+  margin: 1rem 0;
+  padding: .5rem;
+  padding-left: 2rem;
+  background: linear-gradient(90deg, #00000000 0%, #ffffff25 5%, #00000000 75%);
+}
+
+
+/* ~ MARKDOWN BLOCKS ~ */
 
 .color-gold {
   color: #c74

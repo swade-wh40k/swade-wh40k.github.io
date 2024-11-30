@@ -8,13 +8,13 @@ layout: default
   {% if person.link == false %}
   <div {% else %} <a href="{{ person.url }}" target="_self" {% endif %}
     class="animScaleFadeIn w-80 m-3 rounded-xl p-6 bg-black bg-opacity-30">
-    <h1 class="playfair color-gold text-2xl font-semibold">{{ person.title }}</h1>
+    <h1 class="heading color-gold text-2xl font-semibold">{{ person.title }}</h1>
     <img class="w-full py-6" src="{{ person.profile-picture | no-photo }}" alt="profile picture" />
 
     {% for stat in person.stats %}
     {% if stat.card %}
     <div>
-      <p class="play inline color-white"><span class="color-gold">{{ stat.title }}:</span>&ensp;{{ stat.card }}</p>
+      <p class="paragraph inline color-white"><span class="color-gold">{{ stat.title }}:</span>&ensp;{{ stat.card }}</p>
     </div>
     {% endif %}
     {% endfor %}
